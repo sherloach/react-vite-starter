@@ -1,8 +1,7 @@
-import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import { App, WrappedApp } from 'App';
 import { MemoryRouter } from 'react-router-dom';
-
-import { WrappedApp, App } from './App';
+import { describe, it } from 'vitest';
 
 describe('App', () => {
   it('Renders hello world', () => {
